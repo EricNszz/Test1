@@ -1,5 +1,5 @@
 {
-  "generato_il": "06/11/2026 17:11",
+  "generato_il": "06/11/2026 11:10",
   "periodo": {
     "da": "01/11/2025",
     "a": "31/10/2026"
@@ -62,18 +62,18 @@
       },
       "top_prodotti": {
         "etichette": [
-          "Guatemala",
-          "Etiopia",
-          "Filtro V60",
+          "Macinino",
           "Moka",
-          "Macinino"
+          "Filtro V60",
+          "Etiopia",
+          "Guatemala"
         ],
         "valori": [
-          13078.0,
-          14056.0,
-          17118.0,
+          36075.0,
           23016.0,
-          36075.0
+          17118.0,
+          14056.0,
+          13078.0
         ]
       }
     },
@@ -128,18 +128,18 @@
       },
       "top_prodotti": {
         "etichette": [
-          "Colombia",
-          "Etiopia",
-          "Filtro V60",
+          "Macinino",
           "Moka",
-          "Macinino"
+          "Filtro V60",
+          "Etiopia",
+          "Colombia"
         ],
         "valori": [
-          4062.5,
-          4746.0,
-          5994.0,
+          10374.0,
           7824.0,
-          10374.0
+          5994.0,
+          4746.0,
+          4062.5
         ]
       }
     },
@@ -194,18 +194,18 @@
       },
       "top_prodotti": {
         "etichette": [
-          "Guatemala",
-          "Etiopia",
-          "Filtro V60",
+          "Macinino",
           "Moka",
-          "Macinino"
+          "Filtro V60",
+          "Etiopia",
+          "Guatemala"
         ],
         "valori": [
-          5811.0,
-          6314.0,
-          7614.0,
+          18330.0,
           10080.0,
-          18330.0
+          7614.0,
+          6314.0,
+          5811.0
         ]
       }
     },
@@ -260,18 +260,18 @@
       },
       "top_prodotti": {
         "etichette": [
-          "Colombia",
-          "Filtro V60",
-          "Guatemala",
+          "Macinino",
           "Moka",
-          "Macinino"
+          "Guatemala",
+          "Filtro V60",
+          "Colombia"
         ],
         "valori": [
-          3262.5,
-          3510.0,
-          3835.0,
+          7371.0,
           5112.0,
-          7371.0
+          3835.0,
+          3510.0,
+          3262.5
         ]
       }
     }
