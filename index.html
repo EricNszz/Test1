@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Dashboard vendite</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- HTML = STRUTTURA. Qui non c'e' nessun numero: li inserisce app.js. -->
+  <header class="topbar">
+    <div>
+      <h1>Vendite torrefazione</h1>
+      <p id="periodo" class="muted"></p>
+    </div>
+    <label class="filtro">
+      Regione
+      <select id="filtro-regione"></select>
+    </label>
+  </header>
+
+  <main>
+    <!-- Riga dei KPI: ogni valore ha un id, JavaScript lo riempie -->
+    <section class="kpi" aria-label="Indicatori principali">
+      <div><span class="kpi-label">Fatturato</span><strong id="kpi-fatturato">–</strong></div>
+      <div><span class="kpi-label">Ordini</span><strong id="kpi-ordini">–</strong></div>
+      <div><span class="kpi-label">Scontrino medio</span><strong id="kpi-scontrino">–</strong></div>
+      <div><span class="kpi-label">Ultimo mese</span><strong id="kpi-variazione">–</strong></div>
+    </section>
+
+    <!-- Ogni grafico ECharts vive dentro un <div> con altezza definita in CSS -->
+    <section class="griglia">
+      <article class="pannello largo">
+        <h2>Fatturato mensile</h2>
+        <div id="grafico-mensile" class="grafico"></div>
+      </article>
+      <article class="pannello">
+        <h2>Fatturato per categoria</h2>
+        <div id="grafico-categorie" class="grafico"></div>
+      </article>
+      <article class="pannello">
+        <h2>Cinque prodotti più venduti</h2>
+        <div id="grafico-top" class="grafico"></div>
+      </article>
+    </section>
+
+    <p id="errore" class="errore" hidden></p>
+  </main>
+
+  <footer class="muted" id="piede"></footer>
+
+  <!-- Libreria ECharts (versione fissata, buona pratica) poi il nostro codice -->
+  <script src="https://cdn.jsdelivr.net/npm/echarts@5.5.1/dist/echarts.min.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
